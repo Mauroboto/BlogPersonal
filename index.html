@@ -1,79 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Blog Personal</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated cards</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!--     HAMBURGER MENU
+    HAMBURGER MENU
+    HAMBURGER MENU
+    HAMBURGER MENU -->
 
-<body>
-    <div class="cards">
+    <nav>
+      <div class="mobile">
+        <div class="header">
+          <div class="logo"><button id="lang-toggle">Español</button></div>
+          <div class="more">
+            <button id="bMore">
+              <span class="material-icons"> menu </span>
+            </button>
+          </div>
+        </div>
+        <div id="links" class="links">
+          <a href="#stack" class="lngTgg">Experiencia</a>
+          <a href="/about.html" class="lngTgg">Acerca de mi</a>
+          <a href="./contact.html" class="lngTgg">Contacto</a>
+        </div>
+      </div>
+
+      <div class="desktop">
+        <div class="logo">
+          <img src="/Images/logo-Ready-to-Work.svg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <!-- 
+    SLIDER
+    SLIDER
+    SLIDER
+    SLIDER -->
+
+    <header>
+      <h1 class="titleHeader"> MAURO ROBERTO BOTTONE</h1>
+      <h2 class="titleHeader"> FRONT END DEVELOPER</h2>
+      <h1 class="titleHeader">Bienvenido</h1>
+      <div class="slider-container">
+        <div class="slider-viewport">
+          <div class="slide" id="slide1">
+            <img src="./Images/WP_20171102_20_07_42_Pro.jpg" alt="" />
+          </div>
+          <div class="slide" id="slide2">
+            <img src="./Images/FB_20170713_18_14_13_Saved_Picture.jpg" alt="" />
+          </div>
+        </div>
+        <div class="links">
+          <a href="#slide1">1</a>
+          <a href="#slide2">2</a>
+        </div>
+      </div>
+    </header>
+    <!-- 
+    STACK
+    STACK
+    STACK
+    STACK -->
+
+    <main>
+      <h1 class="title" id="stack">PERSONAL STACK</h1>
+      <div class="cards">
         <div class="card">
-            <div class="header">
-                <div class="date">10 de Octubre</div>
-                <div class="title">Mi cumple</div>
-            </div>
-            <div class="footer">
-                <div class="autor">
-                    <a href="#">
-                        <img src="square.jpg" alt="">
-                        <span>Mauro Bottone</span>
-                    </a>
-                </div>
-            </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+            alt=""
+          />
         </div>
 
         <div class="card element-1">
-            <div class="header">
-                <div class="date">10 de Octubre</div>
-                <div class="title">Mi cumple</div>
-            </div>
-            <div class="footer">
-                <div class="autor">
-                    <a href="#">
-                        <img src="square.jpg" alt="">
-                        <span>Mauro Bottone</span>
-                    </a>
-                </div>
-            </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+            alt=""
+          />
         </div>
 
         <div class="card element-2">
-            <div class="header">
-                <div class="date">10 de Octubre</div>
-                <div class="title">Mi cumple</div>
-            </div>
-            <div class="footer">
-                <div class="autor">
-                    <a href="#">
-                        <img src="square.jpg" alt="">
-                        <span>Mauro Bottone</span>
-                    </a>
-                </div>
-            </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+            alt=""
+          />
         </div>
 
         <div class="card element-3">
-            <div class="header">
-                <div class="date">10 de Octubre</div>
-                <div class="title">Mi cumple</div>
-            </div>
-            <div class="footer">
-                <div class="autor">
-                    <a href="#">
-                        <img src="square.jpg" alt="">
-                        <span>Mauro Bottone</span>
-                    </a>
-                </div>
-            </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+            alt=""
+          />
         </div>
-    </div>
-   
+        <div class="card element-4">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt=""
+          />
+        </div>
+        <div class="card element-5">
+          <img
+            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            alt=""
+          />
+        </div>
+        <div class="card element-6">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"
+            alt=""
+          />
+        </div>
+        <div class="card element-7">
+          <img src="https://mui.com/static/logo.png" alt="" />
+        </div>
+        <div class="card element-8">
+          <img
+            src="https://qph.cf2.quoracdn.net/main-qimg-0b80443be251e11df8d34cf0d57d851d"
+            alt=""
+          />
+        </div>
+        <div class="card element-9">
+          <img
+            src="https://www.muylinux.com/wp-content/uploads/2019/01/mongodb.png"
+            alt=""
+          />
+        </div>
+        <div class="card element-10">
+          <img src="/Images/arduino-logo-1.png" alt="" />
+        </div>
+        <div class="card element-11">
+          <img src="/Images/Python-logo-notext.svg.png" alt="" />
+        </div>
+      </div>
+    </main>
+    <section class="text">
+      <p class="exp">
+        Este es mi stack personal de tecnologias. inicie mi camino en el mundo
+        IT alla por el 2021 aprendiendo Python, el cual continuo con un
+        complemento de Arduino, para luego dar un pequeño giro hacia el mundo
+        del Front End. Asi las cosas, es que por el mes de Febrero del 2022
+        comence la primera etapa de mi carrera como Desarrollador Front End
+        REACT.JS, la cual culminaria el mes de Spetiembre del mismo año. Paluego
+        reanudarse en el mes de Enero de 2023 con el curso de Desarrollador Back
+        End. Ambos cursos tratando los temas correspondientes al denominado
+        M.E.R.N stack. Actualmente solo poseo experiencia academica y los
+        proyectos que respaldan las tecnologias aprendidas. Espero poder
+        insertarme pronto en el mercado laboral para desarrollar mis
+        conocimientos y enfrentar los desafios para los que me estoy preparando.
+      </p>
+    </section>
 
+    <footer>
+      <p>&copy; 2023 Mi Blog Personal</p>
+    </footer>
+    <script>
+      const bMore = document.querySelector("#bMore");
+      const links = document.querySelector("#links");
 
-</body>
-
+      bMore.addEventListener("click", (e) => {
+        links.classList.toggle("collapsed");
+      });
+    </script>
+    <script src="main.js"></script>
+    <script src="/toggleLang.js"></script>
+  </body>
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <div class="header">
+          <div class="logo"><button id="lang-toggle">Español</button></div>
+          <div class="more">
+            <button id="bMore">
+              <span class="material-icons"> menu </span>
+            </button>
+          </div>
+        </div>
+        <div id="links" class="links">
+          <a href="/index.html" class="lngTgg">Experiencia</a>
+          <a href="" class="lngTgg">Acerca de mi</a>
+          <a href="./contact.html" class="lngTgg">Contacto</a>
+        </div>
+      </div>
+
+      <div class="desktop">
+        <div class="logo">
+          <img src="/Images/logo-Ready-to-Work.svg" alt="" />
+        </div>
+        
+      </div>
+    </nav>
+    <h1 class="me">Acerca de mi</h1>
+
+    <div class="about-container">
+      <h2 class="about">Introducción:</h2>
+      <p class="about">
+        Soy un apasionado de la tecnología y estoy buscando mi primer empleo en
+        el campo de desarrollo front-end. Con 37 años de edad, he pasado los
+        últimos 13 años en la policía, pero siempre he tenido una pasión por el
+        desarrollo web y la creación de sitios web. He estado estudiando y
+        practicando en mis tiempos libres, y ahora estoy buscando una
+        oportunidad para poner en práctica mis habilidades.
+      </p>
+      <h2 class="about">Habilidades y conocimientos técnicos:</h2>
+      <p class="about">
+        Soy experto en HTML, CSS y JavaScript, y también tengo experiencia en el
+        uso de React.js, Node.js, Python, Arduino, Git y Github, y Bootstrap.
+        Aunque no tengo experiencia laboral en TI, he trabajado en varios
+        proyectos personales y de código abierto para desarrollar mis
+        habilidades. También he tomado cursos en línea y he leído extensamente
+        sobre el desarrollo web y las tecnologías relacionadas.
+      </p>
+      <h2 class="about">Logros y proyectos:</h2>
+      <p class="about">
+        Uno de mis proyectos más recientes ha sido la creación de un sitio web
+        personal utilizando React.js y Bootstrap. También he trabajado en varios
+        proyectos de código abierto, contribuyendo al desarrollo de software
+        para la comunidad de desarrolladores. Estos proyectos me han permitido
+        desarrollar mis habilidades y comprender mejor los procesos y las
+        prácticas del desarrollo web.
+      </p>
+      <h2 class="about">Educación y formación:</h2>
+      <p class="about">
+        No tengo un título universitario en TI, pero he completado varios cursos
+        en línea en el desarrollo web y la programación. Además, he asistido a
+        varios talleres y conferencias sobre tecnología para mejorar mi
+        conocimiento y comprensión de las últimas tendencias y tecnologías en el
+        campo.
+      </p>
+      <h2 class="about">Conclusiones:</h2>
+      <p class="about">
+        Estoy emocionado por la posibilidad de unirme a un equipo de
+        desarrolladores front-end y trabajar en proyectos emocionantes que me
+        permitan seguir aprendiendo y creciendo. Creo que mis habilidades
+        técnicas y mi pasión por la tecnología serían un activo valioso para
+        cualquier empresa que busque un desarrollador front-end comprometido y
+        motivado.
+      </p>
+      <div>
+        <img src="./Images/Me.jpg" alt="" />
+      </div>
+    </div>
+
+    <footer class="copy">
+      <p>&copy; 2023 Mi Blog Personal</p>
+    </footer>
+    <script>
+      const bMore = document.querySelector("#bMore");
+      const links = document.querySelector("#links");
+
+      bMore.addEventListener("click", (e) => {
+        links.classList.toggle("collapsed");
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

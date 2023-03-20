@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="mobile">
+        <div class="header">
+          <div class="logo"><button id="lang-toggle">Español</button></div>
+          <div class="more">
+            <button id="bMore">
+              <span class="material-icons"> menu </span>
+            </button>
+          </div>
+        </div>
+        <div id="links" class="links">
+          <a href="/index.html" class="lngTgg">Experiencia</a>
+          <a href="/about.html" class="lngTgg">Acerca de mi</a>
+          <a href="./contact.html" class="lngTgg">Contacto</a>
+        </div>
+      </div>
+
+      <div class="desktop">
+        <div class="logo">
+          <img src="/Images/logo-Ready-to-Work.svg" alt="" />
+        </div>
+      </div>
+    </nav>
+
+    <!--       SLIDER
+      SLIDER
+      SLIDER
+      SLIDER -->
+    <section class="section">
+      <div class="form-container">
+        <div class="login-container">
+          <h2 class="contact">Contacto</h2>
+
+          <form
+            action="https://formsubmit.co/maurorobertobottone@gmail.com"
+            method="POST"
+          >
+            <p>
+              <label for="Nombre">Nombre/Name</label>
+              <input class="input" type="text" name="Nombre" id="Nombre" />
+            </p>
+
+            <p>
+              <label for="apellido">Apellido/Surname</label>
+              <input class="input" type="text" name="Apellido" id="Apellido" />
+            </p>
+            <p>
+              <label for="E-mail">E-mail</label>
+              <input class="input" type="text" name="E-mail" id="E-mail" />
+            </p>
+
+            <div class="providers">
+              <textarea
+                name="Escribe aqui"
+                id="Escribe-aqui"
+                placeholder="Escribe aqui/Write here"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <button class="btn btn-reset" type="reset">Reset</button>
+            </div>
+            <p>
+              <input type="submit" class="btn btn-send" value="send" />
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="sc-media">Redes sociales</h2>
+      <ul class="list">
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/Mauroboto?tab=repositories"
+            ><img src="/Images/GitHub-Mark - copia.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/321564897a">
+            <img
+              src="/Images/png-transparent-computer-icons-twitter-logo-logo-monochrome-black.png"
+              alt=""
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/mauro-boto/"
+            ><img src="/Images/linkedin.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Mi Blog Personal</p>
+    </footer>
+
+    <script>
+      const bMore = document.querySelector("#bMore");
+      const links = document.querySelector("#links");
+
+      bMore.addEventListener("click", (e) => {
+        links.classList.toggle("collapsed");
+      });
+    </script>
+    <script src="main.js"></script>
+    <script src="/toggleLang.js"></script>
+  </body>
+</html>
