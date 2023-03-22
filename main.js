@@ -77,7 +77,7 @@ const texts = {
 };
 
 // Inicializar idioma en inglés
-let currentLanguage = "english";
+let currentLanguage = "spanish";
 
 // Función para cambiar el idioma
 function toggleLanguage() {
