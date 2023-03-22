@@ -403,6 +403,41 @@ nav .desktop .secondary.mini {
   #slide2 img {
     width: 200px;
     height: 600px;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cards .card {
+    margin: 15px;
+    padding: 15px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .exp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+  }
+  footer p {
+    display: none;
+  }
+  #slide1 img,
+  #slide2 img {
+    width: 200px;
+    height: 600px;
+    max-width: fit-content;
+    max-height: fit-content;
     background-color: none;
   }
 }
