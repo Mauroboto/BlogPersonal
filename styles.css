@@ -219,6 +219,10 @@ footer {
   border-radius: 25px;
 }
 
+.list{
+  list-style-type: none;
+}
+
 section .sc-media {
   margin: 10px;
   padding: 10px;
