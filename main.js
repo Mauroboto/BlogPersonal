@@ -20,7 +20,7 @@ const texts = {
 
     contact: ["Contact"],
 
-    lngTgg: ["Experience", "About me", "Contact", "About me"],
+    lngTgg: ["Experience", "About me", "Contact", "Download my CV"],
     me: ["About me"],
 
     scmedia: ["Social Media"],
@@ -51,7 +51,7 @@ const texts = {
 
     contact: ["Contacto"],
 
-    lngTgg: ["Experiencia", "Acerca de mi", "Contacto"],
+    lngTgg: ["Experiencia", "Acerca de mi", "Contacto", "Queres ver mi CV?"],
 
     me: ["Acerca de mi"],
 
